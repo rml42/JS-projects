@@ -1,0 +1,1 @@
+Movie search from OMDB. Search movies by name, get posters and link to imdb.
