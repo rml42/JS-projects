@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>OMDB API</title>
+    <title>OMDB API test</title>
     <link href="styles/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <header><h1>OMDP</h1></header>
+    <header><h1>OMDP API test</h1></header>
     
     <main>
     <article>
         <form onSubmit="return false;">
-            <input id="search" type="search">
-            <input id="search-button" type="button" onclick="findMovie();">
+            <input id="search" type="search" value="Type in movie to search">
+            <input id="search-button" type="button" onclick="findMovie();" value="Search OMDB">
         </form>
-        <div id="searchForm"></div>
+        <div id="searchForm" class="flex"></div>
 
     </article>
 
