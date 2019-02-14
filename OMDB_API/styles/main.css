@@ -21,10 +21,6 @@ div {
     text-align: center;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80px;
-}
 
 span {
     font-family: Arial, Helvetica, sans-serif;
@@ -45,9 +41,6 @@ li {
     margin: 20px;
 }
 
-img {
-    margin: 5px;
-}
 
 footer {
     border-style: solid;
@@ -58,6 +51,30 @@ footer {
     font-size: 30px; 
     background-color: #d4d4dc;
     margin: 1%
+}
+
+.listImg {
+    margin: 10px;
+    float: left;
+}
+
+.listHeader{
+    color: #393f4d;
+    font-size: 50px; 
+    margin: 10px;
+    text-align: left;
+}
+
+.listSpan{
+    color: #393f4d;
+    margin: 10px;
+    font-size: 30px; 
+    text-align: left;
+}
+
+.pageName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
 }
 
 #search {
