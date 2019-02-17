@@ -31,7 +31,6 @@ article {
 }
 
 section {   
-    width: 47%;
     border-style: solid;
     border-radius: 10px;
     align: center;
@@ -107,4 +106,28 @@ li {
     font-size: 50px;
 }
 
+.gallery-link {
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    color:#C8C5D9;
+    margin: 5%;
+}
+
+.gallery-link:hover {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(240, 237, 245);
+    color: rgb(240, 237, 245);
+}
+
+.indexSection{
+    width: 47%;
+}
+
+.marsSection{
+    width: 96%;
+    height: 80%;
+}
 

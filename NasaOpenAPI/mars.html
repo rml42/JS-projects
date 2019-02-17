@@ -11,13 +11,17 @@
     <header><h1>Nasa Open API test</h1></header>
     <nav>
         <a class= "button button1" href="index.html">HOME</a>
-        <a class= "button button1" href="mars.html">MARS</a>
+        <a class= "button button1" href="mars.html">MARS GALLERY</a>
     </nav>
     
     <main>
     <article>
-        <section id= "responseContent1"><h1 class="section-header">ReaR/Front Hazard Cam</h1></section>
-        <section id= "responseContent"><h1 class="section-header">Mars Rover</h1></section>
+        <nav>
+        <a class="gallery-link" onclick="marsPhotos();">Curiosity</a>
+        <a class="gallery-link" onclick="curiosityRear();">Curiosity Rear Hazard</a>
+        <a class="gallery-link" onclick="marsPhotos();">Curiosity Front Hazard</a>
+        </nav>
+        <section class="marsSection" id= "responseGallery"></div><h1 class="section-header">Choose gallery from above links</h1></section>
     </article>
 
     

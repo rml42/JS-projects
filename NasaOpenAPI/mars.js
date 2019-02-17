@@ -8,9 +8,13 @@ function append(parent, el) {
   return parent.appendChild(el);
 }
 
+function marsPhotos(){
+
+document.getElementById("responseGallery").innerHTML = "";
+
 // get where new content will be put
 
-const ul = document.getElementById('responseContent');
+const ul = document.getElementById('responseGallery');
 
 // url to fetch
 const url = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=S9wIHzSzlzZsbGLjkkVYIJYfvXLpQKiJyZ0Jdnar';
@@ -35,10 +39,12 @@ fetch(url)
 .catch(function(error) {
   console.log(error);
 }); 
-  
+}  
 // second image row
+function curiosityRear() {
 
-const ul1 = document.getElementById('responseContent1');
+document.getElementById("responseGallery").innerHTML = "";
+const ul1 = document.getElementById('responseGallery');
 const url1 = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=NAVCAM&api_key=S9wIHzSzlzZsbGLjkkVYIJYfvXLpQKiJyZ0Jdnar';
 fetch(url1)
 .then((resp) => resp.json())
@@ -58,8 +64,12 @@ fetch(url1)
 .catch(function(error) {
   console.log(error);
 }); 
+}
 
-const ul2 = document.getElementById('responseContent1');
+function curiosityFront(){
+
+document.getElementById("responseGallery").innerHTML = "";
+const ul2 = document.getElementById('responseGallery');
 const url2 = 'https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&camera=FHAZ&api_key=S9wIHzSzlzZsbGLjkkVYIJYfvXLpQKiJyZ0Jdnar';
 fetch(url2)
 .then((resp) => resp.json())
@@ -79,3 +89,4 @@ fetch(url2)
 .catch(function(error) {
   console.log(error);
 }); 
+}
