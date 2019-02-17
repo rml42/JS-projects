@@ -37,7 +37,7 @@
 
   img.src = apod.url;
   h1.innerHTML = `${apod.title}`;
-  span.innerHTML = `${apod.explanation} </br> </br> ${apod.copyright}`;
+  span.innerHTML = `${apod.explanation} </br> </br>Author: ${apod.copyright}`;
   append(li, img);
   append(li, h1);
   append(li, span);
