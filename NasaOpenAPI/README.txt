@@ -1,1 +1,0 @@
-I made this small webpage to learn JS fetch properties. Hopefully when inspiration hits me I'll continue tinkering with it.
